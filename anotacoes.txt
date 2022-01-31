@@ -1,0 +1,9 @@
+Alguns conceitos usados no ecosistema GraphQL:
+
+Schema - Descreve a funcionalidade disponível para os clientes que se conectam a ele.
+
+Tipos - Tudo em GraphQL é um tipo,e, um tipo pode ser entendido como uma entidade em seu banco de dados (relacional ou não relacional). Os tipos forma um schema, e, o GraphQL possui 2 tipos padrão: RootQuery e RootMutation.
+
+Query e Mutations - O type Query serve para definir o contrato de consulta de dados e O type Mutation serve para definir o contrato de manipulação de dados
+
+Resolver - Resolvers são funções responsáveis revolver um pedido e devolver o dado solicitado. As funções recebem três argumentos : root , argumentos e contexto.
